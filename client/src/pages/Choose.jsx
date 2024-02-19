@@ -10,7 +10,7 @@ function Choose() {
   const fetchRestaurants = async () => {
     setLoading(true)
 
-    const location = "Columbus OH"
+    const location = "Newark OH"
     const categories = "vegetarian"
     const apiUrl = `${
       process.env.REACT_APP_API_URL
